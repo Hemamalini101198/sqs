@@ -8,11 +8,6 @@ variable "sqs_name" {
   type = string
 }
 
-variable "env" {
-  description = "environment for tag"
-  type = string
-}
-
 variable "tag_name" {
   description = "tag name for sqs"
   type = string
