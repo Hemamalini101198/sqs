@@ -3,8 +3,7 @@ resource "aws_sqs_queue" "sqs_queue" {
   name = var.sqs_name
 
   tags = {
-    Environment = var.env
-    name = var.tag_name
+    Name = var.tag_name
   }
 
   fifo_queue = var.queue_type
